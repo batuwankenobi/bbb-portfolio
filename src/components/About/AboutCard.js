@@ -8,33 +8,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi everyone, I am <span className="purple">Batuhan Bartu BEBEK</span> from{" "}
+            <span className="purple">Istanbul, TURKEY</span>.
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I’m a Junior Full Stack Developer with a background in Bioengineering from Marmara University. My journey from science to software has sharpened my analytical thinking and fueled my passion for building innovative, user-centric web applications.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I specialize in technologies like <span className="purple">React.js, Tailwind CSS, JavaScript</span> and also have experience in <span className="purple">Java, Spring Boot</span>, and modern development practices.
+            <br />
+            I’ve built e-commerce platforms, responsive portfolios, and interactive web apps, while also contributing to full stack projects during my time at Workintech.
+            <br />
+            <br />
+            Outside of tech, I enjoy working on projects that combine <span className="purple">creativity, entrepreneurship, and impactful problem-solving</span>.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Building responsive and scalable web applications with React and Tailwind CSS
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Generating creative business ideas and product designs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling, camping, and exploring new cultures
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Watching and analyzing movies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing and following American football & table tennis
             </li>
           </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Programs must be written for people to read, and only incidentally for machines to execute."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer"> Harold Abelson</footer>
         </blockquote>
       </Card.Body>
     </Card>

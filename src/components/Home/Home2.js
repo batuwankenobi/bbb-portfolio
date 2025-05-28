@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,37 +17,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              My name is <b className="purple">Batuhan Bartu BEBEK</b> and I’m a frontend developer with a background in bioengineering.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I discovered my passion for <b className="purple">software development</b> during university and turned it into a career. Through Workintech’s full stack program, I specialized in modern frontend technologies.
+              <br />
+              <br />
+              I'm skilled in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+                <b className="purple"> React.js, Tailwind CSS, JavaScript</b>
+              </i>{" "}
+              and have experience with
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+                <b className="purple"> Java, Spring Boot, Node.js, and PostgreSQL</b>
+              </i>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              My interests lie in building dynamic, user-friendly web applications, solving real-world problems with <b className="purple">clean UI/UX design</b>, and delivering creative software solutions.
+              <br />
+              <br />
+              I'm also enthusiastic about <b className="purple">entrepreneurship</b>, having patented a medical product and led several projects from design to launch.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,44 +54,26 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://github.com/batuwankenobi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillGithub />
                 </a>
               </li>
+              
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/batuhan-bartu-bebek/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            
             </ul>
           </Col>
         </Row>
@@ -112,4 +81,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
